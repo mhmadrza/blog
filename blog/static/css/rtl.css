@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Sahel;
+    src: url('Sahel.eot');
+    src: url('Sahel.eot?#iefix') format('embedded-opentype'),
+         url('Sahel.woff2') format('woff2'),
+         url('Sahel.woff') format('woff'),
+         url('Sahel-Black.ttf') format('truetype');
+    font-weight: normal;
+}
+
+* {
+    font-family: "sahel" !important;
+}
+
+body {
+    direction: rtl;
+    text-align: justify;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+@media (min-width: 992px) {
+    header.masthead .page-heading h1, header.masthead .page-heading .h1, header.masthead .site-heading h1, header.masthead .site-heading .h1 {
+        font-size: 3.5rem;
+        font-weight: 300;
+    }
+}
+
+
+
+
